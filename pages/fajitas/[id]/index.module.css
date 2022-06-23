@@ -1,0 +1,24 @@
+
+
+.fajita_container{
+    border: solid #ff8c00 2px;
+    border-radius: 5px;
+    width: 70vw;
+    margin: 5vw 15vw;
+    padding: 20px;
+    height: fit-content;
+}
+
+.name{
+    font-size: 4vh;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.info_container{
+    padding: 5px;
+}
+
+.vegetable{
+    padding-left: 20px;
+}

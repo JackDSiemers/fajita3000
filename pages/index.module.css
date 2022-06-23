@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5vw;
+}
+
+.title{
+    padding-left: 3vw;
+}
+
+.fajita_container{
+    border: solid #ff8c00 2px;
+    border-radius: 5px;
+    width: 80%;
+    height: 90%;
+    padding: 5px;
+}
+
+.name{
+    font-size: 4vh;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.info_container{
+    padding: 5px;
+}
+
+.vegetable{
+    padding-left: 20px;
+}

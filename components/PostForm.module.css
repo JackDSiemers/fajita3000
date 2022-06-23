@@ -1,0 +1,54 @@
+
+.postform{
+    border: solid #ff8c00 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: fit-content;
+    width: 60vw;
+    margin: 5vh 20vw;
+}
+
+.edit{
+    text-align: center;
+    font-size: 2vh;
+    color: #ff8c00;
+}
+
+.detail{
+    font-size: 2vw;
+    color: #ff8c00;
+    margin: 1vw 0 0 0;
+}
+
+.postform fieldset {
+    border: none;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20vw;
+}
+
+.button{
+    width: 30%;
+    height: 5vh;
+    margin: 0 35%;
+    border-color: #ff8c00;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.postform button:hover {
+    transition: 0.2s;
+    background-color: #ffb862; 
+}
+
+.postform input {
+    padding: 0.5em 0 0.5em 5%;
+    border-radius: 5px;
+    border-color: #ff8c00;
+}
+
+.error{
+    font-family: 'Mada', sans-serif;
+    color: #ff0000;
+}
