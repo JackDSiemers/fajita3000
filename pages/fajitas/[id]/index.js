@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { getFajitaById } from "../../../lib/api";
+import { deleteFajita, getFajitaById } from "../../../lib/api";
 import styles from "./index.module.css";
 
 export default function index() {
@@ -38,6 +38,13 @@ export default function index() {
           return <p className={styles.vegetable}>-{vegetable}</p>;
         })}
       </div>
+      <img
+        src="/trash.svg"
+        className={styles.trash}
+        onClick={() => {
+          deleteFajita(fajita.id).then(() => router.push("/"));
+        }}
+      />
     </div>
   );
 }

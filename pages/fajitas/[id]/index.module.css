@@ -17,6 +17,11 @@
 
 .info_container{
     padding: 5px;
+    text-align: center;
+}
+
+.trash{
+    width: 3vw;
 }
 
 .vegetable{
