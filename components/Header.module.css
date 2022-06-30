@@ -2,14 +2,19 @@
     width: 100vw;
     height: 5vw;
     background-color: #ff8c00;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title{
     font-size: 4vw;
-    padding: 0;
+    padding: 0 5vw;
     margin: 0;
+}
+
+.create{
+    width: 4vw;
+    padding: 0 5vw;
 }
 
 .header p{

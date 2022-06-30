@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <p onClick={() => router.push("/")} className={styles.title}>Fajita3000</p>
-      <p onClick={() => router.push("/fajitas/create")}> Create Fajita </p>
+      <img src="/plus.svg" onClick={() => router.push("/fajitas/create") } className={styles.create}/>
     </header>
   );
 }
