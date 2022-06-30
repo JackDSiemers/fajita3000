@@ -31,7 +31,7 @@
 .button{
     width: 30%;
     height: 5vh;
-    margin: 0 35%;
+    margin: 0 35% 5vh 35%;
     border-color: #ff8c00;
     border-radius: 5px;
     background-color: inherit;
